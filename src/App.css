@@ -1,5 +1,17 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Node {
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -23,6 +35,10 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
